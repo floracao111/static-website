@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.874);
+    color: rgb(159, 166, 173);
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-family: impact;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 5rem;
+    color: rgb(241, 248, 255);
+  }
+  h2 {
+    text-decoration: none;
+  }
+  .inner-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+  }
+  
+  /* Introduction row */
+  .introduction {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0px 20px rgb(202, 209, 255);
+    font-size: 1.2rem;
+    color:aliceblue;
+  }
+  
+  /* Grid with 3 items */
+  .body-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+/* row */
+  .body-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(144, 155, 255, 0.1);
+  }
+
+  
+  .grid-item {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(144, 155, 255, 0.1);
+    text-align: center;
+  }
+  
+  .grid-item img {
+    height: 315;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* text inside grid-item */
+  .grid-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+ 
+  }
+  
+  /* Conclusion*/
+  .conclusion {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+
+/* Nav*/
+.nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .nav p {
+    margin: 0;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #b2b2b2;
+    font-size: 1rem;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+
+  a:link{
+    text-decoration: none;
+    color:aqua;
+  }
+
+  a:visited{
+    color:aqua;
+  }
